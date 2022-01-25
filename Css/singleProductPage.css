@@ -1,0 +1,72 @@
+body
+{
+    box-sizing: border-box;
+    background-color: #F1F3F6;
+}
+#singleProduct .container
+{
+    margin:20px auto;
+   background-color: white;
+   padding:50px;
+   box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+}
+.breadCrumb
+{
+    color:rgb(184, 184, 184);
+}
+#singleProduct h2
+{
+    font-size: 40px;
+}
+.specialPrice
+{
+    color:#26A541;
+}
+.price strike
+{
+    color:rgb(184, 184, 184);
+}
+.rating
+{
+    background-color: #26A541;
+    display: inline-block;
+    color:white;
+    padding:3px 10px;
+    border-radius: 50px;
+    
+}
+.rating i
+{
+    font-size: 10px;
+    position: relative;
+    bottom:5px;
+}
+.addToCart,.buyNow
+{
+    padding:15px 30px;
+    margin:10px;
+}
+.addToCart
+{
+    background-color: #FF9F00;
+    color:white;
+    text-decoration: none;
+    border-radius:3px;
+}
+.addToCart:hover
+{
+    color:white;
+}
+.buyNow:hover{
+    color:white;
+}
+.buyNow{
+    background-color: #FB641B;
+    color:white;
+    text-decoration: none;
+    border-radius:3px;
+}
+.content
+{
+    text-align: center;
+}

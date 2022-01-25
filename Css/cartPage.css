@@ -1,0 +1,85 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F3F6;
+}
+#section1
+{
+    margin:50px 0px;
+}
+.upperDiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+.upperDiv h2
+{
+    font-size: 30px;
+   
+}
+.upperDiv select
+{
+    padding:10px 20px;
+    margin:0px 10px;
+}
+.middleDiv
+{
+    display: flex;
+}
+.middleDiv .content
+{
+    margin:0px 20px 0px 50px;
+
+}
+.price span
+{
+    color:#26A541;
+}
+.lowerDiv
+{
+    text-align: right;
+   
+}
+.lowerDiv a{
+    background-color: #FB641B;
+    color:white;
+    text-decoration: none;
+    border-radius:3px;
+    padding:15px 30px;
+    display: inline-block;
+}
+
+.col-lg-8
+{
+    background-color: white;
+    padding:30px;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+}
+.col-lg-3
+{
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+    background-color: white;
+    margin:0px 20px;
+    padding:10px;
+}
+.col-lg-3 h2{
+    font-size: 20px;
+}
+.first
+{
+    text-align: left;
+}
+.first h3
+{
+    font-size: 20px;
+}
+.second
+{
+    text-align: right;
+}
+.green
+{
+    color:#26A541;
+}
